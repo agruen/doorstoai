@@ -1,0 +1,56 @@
+- number: 1
+  title: Curious Robot Children
+  logline: >-
+    Toddlers use all their senses to experience things that interest them,
+    creating self-directed, well-organized data. Allowing AI to have bodies,
+    curiosity and intention may make training new AI much easier and quicker.
+  talk:
+    title: "Coherence statistics, self-generated experience and why young humans are much smarter than current AI"
+    speaker: Linda Smith
+    affiliation: Indiana University
+    venue: NeurIPS 2023
+  lab: cogdev.lab.indiana.edu
+  summary_status: under construction
+  image_credit: "Frustrated Total Reflection: Its Application to Proximity Problems in Metrology"
+
+- number: 2
+  title: Impossible Social Norms
+  logline: >-
+    Ambiguity about societal norms is measurable, structured, and complex.
+    Asking an AI to "not harm humans" is impossible given conflicting
+    definitions of harm.
+  talk:
+    title: "The Many Faces of Responsible AI"
+    speaker: Lora Aroyo
+    affiliation: Google
+    venue: NeurIPS 2023
+  summary_status: slides
+  image_credit: "The Atomic Clock, an Atomic Standard of Frequency and Time"
+
+- number: 3
+  title: How to Pay Attention
+  logline: >-
+    AI could learn for itself what it should pay attention to, and be more
+    efficient as a result. But self-learned attention might allow AI to become
+    obsessed (overfit).
+  talk:
+    title: "Sketching: core tools, learning-augmentation, and adaptive robustness"
+    speaker: Jelani Nelson
+    affiliation: UC Berkeley / Google
+    venue: NeurIPS 2023
+  summary_status: slides
+  image_credit: "Macromolecular crystallography and structural biology databases at NIST"
+
+- number: 4
+  title: Democratizing Access to AI
+  logline: >-
+    Making a smart AI requires data and computation power at an incredible,
+    unsustainable scale. With improvements to architecture and training, it
+    might be possible to train AI on everyday consumer technology.
+  talk:
+    title: "NextGenAI: The Delusion of Scaling and the Future of Generative AI"
+    speaker: Björn Ommer
+    affiliation: University of Munich
+    venue: NeurIPS 2023
+  summary_status: slides
+  image_credit: "Expansive characteristics of hydrated limes and the development of an autoclave test for soundness"

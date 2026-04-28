@@ -1,0 +1,37 @@
+title: The Doors to AI Project
+tagline: Connecting technology, fiction, art and policy in a way that lets everyone talk about our future.
+description: >-
+  The Doors to AI Project connects technology, fiction, art and policy through
+  questions, places, stories, workshops, and creative requests — opening
+  multiple ways to talk about our future with AI.
+url: "https://doorstoai.org"
+baseurl: ""
+
+permalink: /:path/
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - README.md
+
+# Collections / data drive the site; see _data/*.yml
+nav:
+  - { title: "Questions",  url: "/questions/"  }
+  - { title: "Places",     url: "/places/"     }
+  - { title: "Stories",    url: "/stories/"    }
+  - { title: "Workshops",  url: "/workshops/"  }
+  - { title: "Requests",   url: "/requests/"   }
+  - { title: "Knocking",   url: "/knocking/"   }

@@ -1,0 +1,39 @@
+---
+layout: page
+title: Questions
+permalink: /questions/
+kicker: Non-fiction
+lede: A growing collection of reports on questions of interest to humanity. To find more, visit the organizations in our list of Places.
+---
+
+<aside class="pullquote">
+  &ldquo;The future has always been weird. We&rsquo;re the residents of
+  1901&rsquo;s weird future, and we&rsquo;re the creators of 2101&rsquo;s
+  weird future. How&rsquo;s it going so far?&rdquo;
+</aside>
+
+<nav class="toc" aria-label="Questions on this page">
+  <p class="toc__label">On this page</p>
+  <ul>
+    {% for q in site.data.questions %}
+    <li><a href="#{{ q.slug }}">{{ q.question }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
+
+{% for q in site.data.questions %}
+<section class="question" id="{{ q.slug }}">
+  <h2 class="question__heading">{{ q.question }}</h2>
+  <ul class="report-list">
+    {% for r in q.reports %}
+    <li class="report">
+      <h3 class="report__title">
+        <a href="{{ r.url }}" rel="noopener">{{ r.title }}</a>
+      </h3>
+      <p class="report__meta"><span class="report__org">{{ r.org }}</span> &middot; {{ r.date }}</p>
+      <blockquote class="report__excerpt">{{ r.excerpt }}</blockquote>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}

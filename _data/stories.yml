@@ -1,0 +1,24 @@
+- title: Three Steps to Utopia
+  author: Taylor Margvelashvili
+  excerpt: >-
+    "Devvy, look what I got! A plantslator!" Romi deposited the canvas grocery
+    bag by the fridge and proudly set the present on the faux-marble kitchen
+    island.
+  parts:
+    - label: "Part 1"
+      title: "Vox Verdi"
+      timeframe: "The present, more or less"
+    - label: "Part 2"
+      title: "The Democracy of the Body"
+      timeframe: "88 years later"
+    - label: "Part 3"
+      title: "HALlowed Be"
+      timeframe: "88 years after that"
+  resources:
+    - title: Artificial Intelligence in Health Care
+      org: Congressional Research Service
+    - title: Teaching AI How Science Actually Works
+      org: Institute for Progress
+    - title: What will AI look like in 2030?
+      org: Epoch AI
+  image_credit: "Infrared absorption spectra of plant and animal tissue and of various other substances"

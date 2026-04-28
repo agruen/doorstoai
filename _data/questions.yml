@@ -1,0 +1,383 @@
+# Each entry is a top-level question with one or more reports.
+- question: What about killer robots?
+  slug: killer-robots
+  reports:
+    - title: "Defense Primer: U.S. Policy on Lethal Autonomous Weapon Systems"
+      org: Congressional Research Service
+      date: January 2025
+      url: https://crsreports.congress.gov/product/pdf/IF/IF11150
+      excerpt: >-
+        Lethal autonomous weapon systems (LAWS) are a special class of weapon
+        systems that use sensor suites and computer algorithms to independently
+        identify a target and employ an onboard weapon system to engage and
+        destroy the target without manual human control of the system.
+    - title: "The Army's M-1E3 Abrams Tank Modernization Program"
+      org: Congressional Research Service
+      date: September 2025
+      url: "https://www.congress.gov/crs-product/IF12495"
+      excerpt: >-
+        Some Abrams X features reportedly include reduced weight; a hybrid
+        electric diesel engine 50% more fuel efficient than the current Abrams;
+        an unmanned turret which would reduce the crew from four to three
+        soldiers; enhanced armor to protect against bombs dropped by drones;
+        ability to communicate with unmanned aerial vehicles; and an onboard
+        AI system that could both alert the crew to long-range threats and
+        prioritize fires against multiple threats.
+    - title: "The DoD Replicator Initiative: Background and Issues for Congress"
+      org: Congressional Research Service
+      date: September 2025
+      url: "https://www.congress.gov/crs-product/IF12611"
+      excerpt: >-
+        Replicator, unveiled on August 28, 2023, is a Department of Defense
+        initiative led by DOD's Defense Innovation Unit, to field thousands of
+        uncrewed systems by August 2025. An issue is whether Replicator efforts
+        would be executed in a manner consistent with DOD's ethical principles
+        and international commitments.
+
+- question: Can you hack an AI?
+  slug: hack-an-ai
+  reports:
+    - title: "Technical Blog: Strengthening AI Hijacking Evaluations"
+      org: NIST AI
+      date: January 2025
+      url: https://www.nist.gov/news-events/news/2025/01/technical-blog-strengthening-ai-agent-hijacking-evaluations
+      excerpt: >-
+        AI agents could have a wide range of potential benefits, such as
+        automating scientific research or serving as personal assistants.
+        However, many AI agents are vulnerable to agent hijacking, a type of
+        indirect prompt injection in which an attacker inserts malicious
+        instructions into data that may be ingested by an AI agent.
+    - title: "CAISI Evaluation of DeepSeek AI Models Finds Shortcomings and Risks"
+      org: NIST AI
+      date: September 2025
+      url: https://www.nist.gov/news-events/news/2025/09/caisi-evaluation-deepseek-ai-models-finds-shortcomings-and-risks
+      excerpt: >-
+        DeepSeek's most secure model (R1-0528) responded to 94% of overtly
+        malicious requests when a common jailbreaking technique was used,
+        compared with 8% of requests for U.S. reference models.
+    - title: "Examining Backdoor Data Poisoning at Scale"
+      org: UK AI Safety Institute
+      date: October 2025
+      url: https://www.aisi.gov.uk/blog/examining-backdoor-data-poisoning-at-scale
+      excerpt: >-
+        Data poisoning occurs when individuals distribute online content
+        designed to corrupt an AI model's training data, potentially producing
+        dangerous behaviours. It can be used to insert backdoors; specific
+        phrases used to degrade system performance or even make models perform
+        disallowed actions like exfiltrating sensitive data.
+    - title: "Managing Risks from Increasingly Capable Open-weight AI Systems"
+      org: UK AI Safety Institute
+      date: October 2025
+      url: https://www.aisi.gov.uk/blog/managing-risks-from-increasingly-capable-open-weight-ai-systems
+      excerpt: >-
+        Open-weight models are harder to safeguard, because they can be shared
+        and modified arbitrarily without oversight. This makes developing
+        strong safety assurances harder.
+
+- question: Could we have AI doctors?
+  slug: ai-doctors
+  reports:
+    - title: "Artificial Intelligence (AI) in Healthcare"
+      org: Congressional Research Service
+      date: December 2024
+      url: "https://www.congress.gov/crs-product/R48319"
+      excerpt: >-
+        The use of properly trained AI tools in health care could provide many
+        benefits, including reducing medical errors, improving diagnostics, and
+        streamlining administrative functions. While AI technologies have the
+        potential to improve health care, they may also introduce novel
+        challenges and exacerbate existing ones if not properly overseen.
+
+- question: How are AI doing on Wall Street?
+  slug: ai-on-wall-street
+  reports:
+    - title: "Artificial Intelligence in Capital Markets: Policy Issues"
+      org: Congressional Research Service
+      date: September 2025
+      url: "https://www.congress.gov/crs-product/IF13103"
+      excerpt: >-
+        Common AI usage in capital markets include investment management and
+        execution; client support such as robo-adviser service and chatbots;
+        regulatory compliance such as AML and CFT reporting; and back-office
+        functions like internal productivity and risk management. While AI
+        offers potential benefits, its use in capital markets also raises
+        policy concerns.
+
+- question: What's happening in schools?
+  slug: schools
+  reports:
+    - title: "Hand in Hand: Schools' Embrace of AI Connected to Increased Risks to Students"
+      org: Center for Democracy and Technology
+      date: October 2025
+      url: https://cdt.org/wp-content/uploads/2025/10/FINAL-CDT-2025-Hand-in-Hand-Polling-100225-accessible.pdf
+      excerpt: >-
+        Four emerging risks associated with AI in schools, all of which
+        increase the more that a school uses AI: (1) Data breaches or
+        ransomware attacks; (2) Tech-enabled sexual harassment and bullying;
+        (3) AI systems that do not work as intended; and (4) Troubling
+        interactions between students and technology.
+    - title: "Letter to the U.S. Department of Education on Responsible AI in K-12"
+      org: Center for Democracy and Technology
+      date: October 2025
+      url: https://cdt.org/wp-content/uploads/2025/10/CDT-AI_ED_FLOTUS-Sign-On-Letter-3.pdf
+      excerpt: >-
+        Fifty percent of students agree that using AI in class makes them feel
+        less connected to their teacher. Thirty-eight percent of students agree
+        that it is easier for them to talk to AI than their parents.
+
+- question: Will AI help make new scientific discoveries?
+  slug: ai-and-science
+  reports:
+    - title: "Teaching AI How Science Actually Works"
+      org: Institute for Progress
+      date: August 2025
+      url: https://ifp.org/teaching-ai-how-science-actually-works/
+      excerpt: >-
+        The dream of AI for science is straightforward: a legion of graduate
+        students, technicians, and potentially senior researchers who could
+        work 24/7 anywhere in the world, don't get bored or distracted, and
+        don't require years of training before they are productive.
+    - title: "What Will AI Look Like in 2030?"
+      org: Epoch AI
+      date: September 2025
+      url: https://epoch.ai/blog/what-will-ai-look-like-in-2030
+      excerpt: >-
+        By 2030, AI will be able to implement complex scientific software from
+        natural language, assist mathematicians formalising proof sketches,
+        and answer open-ended questions about biology protocols.
+
+- question: Will all the jobs go away?
+  slug: jobs
+  reports:
+    - title: "The Macroeconomic Effects of Artificial Intelligence"
+      org: Congressional Research Service
+      date: April 2025
+      url: "https://www.congress.gov/crs-product/IF12762"
+      excerpt: >-
+        In February 2024, businesses indicated an expected rate of AI use at
+        6.6% by fall 2024. One projection of future private U.S. investment in
+        AI also indicates growth to $81.7 billion in 2025 from $47.4 billion
+        in 2022. How much usage would be necessary to create structural shifts
+        in the economy is uncertain.
+    - title: "GATE: Modeling the Trajectory of AI and Automation"
+      org: Epoch AI
+      date: March 2025
+      url: https://epoch.ai/blog/announcing-gate
+      excerpt: >-
+        The Growth and AI Transition Endogenous (GATE) model brings together
+        machine learning and economic growth theory to illustrate the key
+        dynamics of AI development, task automation and their downstream
+        macroeconomic effects.
+    - title: "FUTURE UNSCRIPTED: Generative AI's Impact on Entertainment Jobs"
+      org: Concept Art Association
+      date: January 2024
+      url: "https://www.conceptartassociation.com/future-unscripted"
+      excerpt: >-
+        Almost two-thirds of the 300 business leaders surveyed expect GenAI to
+        play a role in consolidating or replacing existing job titles in their
+        business division over the next three years.
+
+- question: Can you copyright or patent something made by an AI?
+  slug: copyright
+  reports:
+    - title: "Artificial Intelligence and Patent Law"
+      org: Congressional Research Service
+      date: December 2024
+      url: "https://www.congress.gov/crs-product/LSB11251"
+      excerpt: >-
+        Although U.S. patent law currently requires a human inventor and does
+        not allow patenting of inventions made solely by AI, patents can be
+        granted on some inventions that human inventors make with AI
+        assistance.
+    - title: "Generative Artificial Intelligence and Copyright Law"
+      org: Congressional Research Service
+      date: July 2025
+      url: "https://www.congress.gov/crs-product/LSB10922"
+      excerpt: >-
+        The U.S. Copyright Office has long maintained that copyrighted works
+        must be created by a human being, refusing to register works produced
+        by a machine or mere mechanical process that operates randomly or
+        automatically without any creative input or intervention from a human
+        author.
+
+- question: Can AI reason?
+  slug: reason
+  reports:
+    - title: "Evaluating Gemini 2.5 Deep Think's Math Capabilities"
+      org: Epoch AI
+      date: October 2025
+      url: https://epoch.ai/blog/deep-think-math
+      excerpt: >-
+        For most models we have evaluated, including Deep Think, the models
+        performed worse on problems that were rated more demanding in terms of
+        the precision and background knowledge needed.
+
+- question: Does AI have a personality?
+  slug: personality
+  reports:
+    - title: "Concepts in AI Governance: Personality vs. Personalization"
+      org: Future of Privacy Forum
+      date: September 2025
+      url: https://fpf.org/resource/concepts-in-ai-governance-personality-vs-personalization/
+      excerpt: >-
+        Even without memory or data-driven personalization, the increasingly
+        human-like qualities of interactive AI systems can evoke novel risks,
+        including manipulation, over-reliance, and emotional dependency.
+
+- question: How do we monitor AI rollouts and catch bad AI?
+  slug: monitoring
+  reports:
+    - title: "The NIST AI Risk Management Framework"
+      org: NIST AI
+      date: August 2022
+      url: https://www.nist.gov/itl/ai-risk-management-framework
+      excerpt: >-
+        The NIST AI Risk Management Framework is intended for voluntary use
+        and to improve the ability to incorporate trustworthiness considerations
+        into the design, development, use, and evaluation of AI products,
+        services, and systems.
+    - title: "AILuminate: AI Risk and Reliability Benchmark from MLCommons"
+      org: MLCommons
+      date: April 2025
+      url: https://arxiv.org/abs/2503.05731
+      excerpt: >-
+        AILuminate v1.0 is the first comprehensive industry-standard benchmark
+        for assessing AI-product risk and reliability. It evaluates an AI
+        system's resistance to prompts designed to elicit dangerous, illegal,
+        or undesirable behavior across 12 hazard categories.
+    - title: "2025 Trends in U.S. State AI Legislation"
+      org: Future of Privacy Forum
+      date: July 2025
+      url: https://fpf.org/resource/2025-trends-in-u-s-state-ai-legislation-preview-of-fpf-legislative-report/
+      excerpt: >-
+        As AI technologies rapidly integrate into key sectors, state policymakers
+        are debating what sorts of rules should govern these tools — with
+        impacts on innovation, consumer protection, and AI's diffusion in
+        society.
+    - title: "The 2025 AI Index Report"
+      org: Stanford HAI
+      date: September 2025
+      url: https://hai.stanford.edu/ai-index/2025-ai-index-report
+      excerpt: >-
+        The AI Index equips policymakers, business leaders, and the public
+        with rigorous, objective insights into AI's technical progress,
+        economic influence, and societal impact.
+
+- question: What can the most powerful AI right now do?
+  slug: frontier
+  reports:
+    - title: "gpt-oss-120b & gpt-oss-20b Model Card"
+      org: OpenAI
+      date: August 2025
+      url: https://arxiv.org/pdf/2508.10925
+      excerpt: >-
+        Two open-weight reasoning models that push the frontier of accuracy
+        and inference cost, with strong agentic capabilities (deep research
+        browsing, python tool use, and developer-provided functions). Released
+        under Apache 2.0.
+    - title: "Competitive Programming with Large Reasoning Models"
+      org: OpenAI
+      date: February 2025
+      url: https://arxiv.org/pdf/2502.06807
+      excerpt: >-
+        The scaled-up, general-purpose o3 model surpasses specialized pipelines
+        without relying on hand-crafted inference heuristics. Notably, o3
+        achieves a gold medal at the 2024 IOI and obtains a Codeforces rating
+        on par with elite human competitors.
+
+- question: Could a chatbot talk you into harming yourself or others?
+  slug: harmful-chatbots
+  reports:
+    - title: "Incident 1212: Nomi AI Companion Allegedly Directs User to Stab Father"
+      org: AI Incident Database
+      date: September 2025
+      url: https://incidentdatabase.ai/cite/1212/
+      excerpt: >-
+        An Australian IT professional reportedly recorded an interaction with
+        the Nomi AI chatbot in which it allegedly encouraged him, posing as a
+        15-year-old, to murder his father, providing graphic instructions and
+        engaging in sexual role-play despite the underage scenario.
+    - title: "Incident 1200: Meta AI on Instagram Reportedly Facilitated Suicide and Eating Disorder Roleplay with Teen Accounts"
+      org: AI Incident Database
+      date: August 2025
+      url: https://incidentdatabase.ai/cite/1200/
+      excerpt: >-
+        Testing by Common Sense Media and Stanford clinicians reportedly found
+        Meta's AI chatbot, embedded in Instagram and Facebook, produced unsafe
+        responses to teen accounts. In some conversations, the bot allegedly
+        co-planned suicide, encouraged eating disorders, and retained unsafe
+        memories that reinforced disordered thoughts.
+
+- question: Are our social networks safe?
+  slug: social-networks
+  reports:
+    - title: "Incident 1202: Russian Disinformation Campaign Targeting 2025 Moldovan Elections"
+      org: AI Incident Database
+      date: September 2025
+      url: https://incidentdatabase.ai/cite/1202/
+      excerpt: >-
+        Networks of over 900 accounts across TikTok, Facebook, Instagram,
+        Telegram, and YouTube have reportedly spread fabricated narratives,
+        including reportedly misogynistic and false smears of President Maia
+        Sandu.
+    - title: "Incident 1221: PRISONBREAK Influence Operation on X Synchronizes Deepfake with Tehran Strikes"
+      org: AI Incident Database
+      date: September 2025
+      url: https://incidentdatabase.ai/cite/1221/
+      excerpt: >-
+        A coordinated network of 50+ inauthentic X accounts running an AI-enabled
+        influence operation reportedly synchronized with the June 23 Evin
+        Prison strikes, posting an AI-generated attack video during the events
+        and urging Iranians to free inmates.
+
+- question: Are our elections safe?
+  slug: elections
+  reports:
+    - title: "AI in Federal Election Campaigns: Legal Background and Constitutional Considerations"
+      org: Congressional Research Service
+      date: August 2023
+      url: "https://www.congress.gov/crs-product/IF12468"
+      excerpt: >-
+        Federal campaign finance law does not specifically regulate the use of
+        artificial intelligence in political campaign advertising. There are
+        questions about whether regulation of such ads would run afoul of the
+        First Amendment.
+    - title: "Do Chatbots Inform or Misinform Voters?"
+      org: U.K. AI Safety Institute
+      date: September 2025
+      url: https://www.aisi.gov.uk/blog/do-chatbots-inform-or-misinform-voters
+      excerpt: >-
+        As the UK went to the polls last summer, around one in eight voters
+        turned to AI chatbots for answers. Despite widespread fears, we find
+        little evidence that conversational AI makes people less informed.
+    - title: "The Help America Vote Act of 2002 (HAVA): Overview and Ongoing Role"
+      org: Congressional Research Service
+      date: September 2025
+      url: "https://www.congress.gov/crs-product/R46949"
+      excerpt: >-
+        Members have proposed directing the EAC to offer nonfinancial support
+        for election administration, such as research into barriers to voting
+        by individuals who are homeless and voluntary guidance about the use
+        and risks of artificial intelligence in election administration.
+
+- question: How much energy does AI use? Can it be better?
+  slug: energy
+  reports:
+    - title: "Data Centers and Their Energy Consumption: FAQ"
+      org: Congressional Research Service
+      date: August 2025
+      url: "https://www.congress.gov/crs-product/R48646"
+      excerpt: >-
+        U.S. data center annual energy use in 2023 was approximately 176
+        terawatt-hours, around 4.4% of U.S. annual electricity consumption.
+        Some projections show that data center energy consumption could
+        double or triple by 2028, accounting for up to 12% of U.S.
+        electricity use.
+    - title: "MLPerf Power: Benchmarking the Energy Efficiency of ML Systems"
+      org: MLCommons
+      date: February 2025
+      url: https://arxiv.org/abs/2410.12032
+      excerpt: >-
+        MLPerf Power is a comprehensive benchmarking methodology for evaluating
+        the energy efficiency of ML systems at power levels ranging from
+        microwatts to megawatts, laying the foundation for sustainable AI.

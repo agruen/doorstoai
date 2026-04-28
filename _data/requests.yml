@@ -1,0 +1,23 @@
+- topic: Helpful Robots for Local Government
+  title: Exocomp-style Helpers for Village Caretakers
+  author: Leeman Kessler
+  byline: "Mayor Lovecraft"
+  body: >-
+    Accuracy would be paramount if we're entrusting it with something like
+    community water safety. There'd be no room for hallucinations. Local
+    government wears many hats — water infrastructure, monitoring, public
+    safety, and the patient work of keeping a small place running. The wish
+    here is for capable, ethically sourced helpers that honor privacy,
+    minimize environmental impact, integrate alongside human staff rather
+    than replace them, and treat resident data with care.
+  technical:
+    - org: MLCommons
+      ref: "Places"
+      note: "keeping rankings for energy efficiency in new AI models"
+    - org: Future of Privacy Forum
+      ref: "Places"
+      note: "easy readers on privacy protections in AI and analytics"
+    - org: "Democratizing AI & Curious Robot Children"
+      ref: "Workshops"
+      note: "research directions for locally-trained AI development"
+  image_credit: "Cross-connections in plumbing systems"

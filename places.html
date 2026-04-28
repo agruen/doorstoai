@@ -1,0 +1,19 @@
+---
+layout: page
+title: Places
+permalink: /places/
+kicker: Non-fiction
+lede: Institutions whose AI-related work shows up across this site, with public archives worth getting to know.
+---
+
+<ul class="place-grid">
+  {% for p in site.data.places %}
+  <li class="place-card">
+    <p class="place-card__short">{{ p.short }}</p>
+    <h2 class="place-card__name">{{ p.name }}</h2>
+    <p class="place-card__founded">Founded&nbsp;{{ p.founded }}</p>
+    <p class="place-card__desc">{{ p.description }}</p>
+    {% if p.url %}<a class="place-card__link" href="{{ p.url }}" rel="noopener">Visit <span aria-hidden="true">&rarr;</span></a>{% endif %}
+  </li>
+  {% endfor %}
+</ul>

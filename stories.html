@@ -1,0 +1,46 @@
+---
+layout: page
+title: Stories
+permalink: /stories/
+kicker: Fiction
+lede: A curated selection of creative responses to materials on this site. We're all in this together — come read some thinking about things we could do with our futures.
+---
+
+{% for s in site.data.stories %}
+<article class="story">
+  <header class="story__header">
+    <h2 class="story__title">{{ s.title }}</h2>
+    <p class="story__author">by {{ s.author }}</p>
+  </header>
+
+  <blockquote class="story__excerpt">{{ s.excerpt }}</blockquote>
+
+  <div class="story__parts">
+    <p class="story__parts-label">Where to read it</p>
+    <ol>
+      {% for part in s.parts %}
+      <li>
+        <span class="story__part-label">{{ part.label }}:</span>
+        <span class="story__part-title">{{ part.title }}</span>
+        <span class="story__part-time">[{{ part.timeframe }}]</span>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+
+  {% if s.resources %}
+  <div class="story__resources">
+    <p class="story__resources-label">Doors resources behind this story</p>
+    <ul>
+      {% for r in s.resources %}
+      <li><strong>{{ r.title }}</strong> &mdash; {{ r.org }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if s.image_credit %}
+  <p class="image-credit">Image: &ldquo;{{ s.image_credit }}&rdquo;</p>
+  {% endif %}
+</article>
+{% endfor %}

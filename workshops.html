@@ -1,0 +1,46 @@
+---
+layout: page
+title: Workshops
+permalink: /workshops/
+kicker: Non-fiction &rarr; Fiction
+lede: A more direct pathway between research and imagination. Below are accessible summaries of real presentations from cutting-edge technology and policy conferences, with responses from the fiction, entertainment and arts communities.
+---
+
+<ol class="workshop-list">
+  {% for w in site.data.workshops %}
+  <li class="workshop">
+    <p class="workshop__number">Workshop {{ w.number | prepend: '0' | slice: -2, 2 }}</p>
+    <h2 class="workshop__title">{{ w.title }}</h2>
+
+    <p class="workshop__logline">{{ w.logline }}</p>
+
+    <dl class="workshop__meta">
+      <div>
+        <dt>Original talk</dt>
+        <dd>
+          &ldquo;{{ w.talk.title }}&rdquo; &mdash; {{ w.talk.speaker }}{% if w.talk.affiliation %}, {{ w.talk.affiliation }}{% endif %}
+          {% if w.talk.venue %} <span class="workshop__venue">[{{ w.talk.venue }}]</span>{% endif %}
+        </dd>
+      </div>
+      {% if w.lab %}
+      <div>
+        <dt>Lab</dt>
+        <dd><a href="https://{{ w.lab }}" rel="noopener">{{ w.lab }}</a></dd>
+      </div>
+      {% endif %}
+      <div>
+        <dt>Accessible summary</dt>
+        <dd>{{ w.summary_status }}</dd>
+      </div>
+      <div>
+        <dt>Creative responses</dt>
+        <dd><em>open call &mdash; come write something</em></dd>
+      </div>
+    </dl>
+
+    {% if w.image_credit %}
+    <p class="image-credit">Image: &ldquo;{{ w.image_credit }}&rdquo;</p>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ol>

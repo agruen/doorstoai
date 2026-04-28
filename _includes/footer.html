@@ -1,0 +1,27 @@
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <div class="site-footer__col">
+      <p class="site-footer__title">The Doors to AI Project</p>
+      <p class="site-footer__text">Connecting technology, fiction, art and policy so we can all talk about our future.</p>
+    </div>
+
+    <div class="site-footer__col">
+      <p class="site-footer__title">Browse</p>
+      <ul class="site-footer__links">
+        {% for item in site.nav %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="site-footer__col">
+      <p class="site-footer__title">Imagery</p>
+      <p class="site-footer__text">All images are from the National Institute of Standards and Technology Digital Collections, Gaithersburg, MD&nbsp;2089.</p>
+    </div>
+  </div>
+
+  <div class="container site-footer__base">
+    <p>&copy; {{ 'now' | date: '%Y' }} The Doors to AI Project.</p>
+    <p><a href="{{ '/feed.xml' | relative_url }}">RSS</a></p>
+  </div>
+</footer>

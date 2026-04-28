@@ -1,0 +1,46 @@
+---
+layout: page
+title: Requests
+permalink: /requests/
+kicker: Fiction &rarr; Non-fiction
+lede: People with professional training in imagination lead this page. We record their requests for reality — their ideas about where we could be next. Then we collect stories and art expanding on those ideas, and keep an index of real-world organizations working in that direction. Technology is made by people, and people follow art.
+---
+
+{% for r in site.data.requests %}
+<article class="request">
+  <header class="request__header">
+    <p class="request__topic">{{ r.topic }}</p>
+    <h2 class="request__title">The Request: {{ r.title }}</h2>
+    <p class="request__author">{{ r.author }} <span class="request__byline">[{{ r.byline }}]</span></p>
+  </header>
+
+  <div class="request__body">
+    <p>{{ r.body }}</p>
+  </div>
+
+  <div class="request__columns">
+    <section class="request__column">
+      <h3 class="request__column-title">Creative exploration</h3>
+      <p class="request__column-sub">Fiction expanding on the idea in the request.</p>
+      <p class="request__empty"><em>Open call &mdash; come write something.</em></p>
+    </section>
+
+    <section class="request__column">
+      <h3 class="request__column-title">Technical exploration</h3>
+      <p class="request__column-sub">Who's pursuing this goal in the real world.</p>
+      <ul class="request__refs">
+        {% for t in r.technical %}
+        <li>
+          <strong>{{ t.org }}</strong> <span class="request__ref-where">[{{ t.ref }}]</span>
+          &mdash; {{ t.note }}
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
+
+  {% if r.image_credit %}
+  <p class="image-credit">Image: &ldquo;{{ r.image_credit }}&rdquo;</p>
+  {% endif %}
+</article>
+{% endfor %}

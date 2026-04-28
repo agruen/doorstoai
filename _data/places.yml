@@ -1,0 +1,113 @@
+# Organizations curated on the Places page.
+- short: CRS
+  name: Congressional Research Service
+  founded: 1914
+  description: >-
+    Provides plain-language policy summaries for the U.S. Congress, including
+    AI in healthcare, weapons systems, capital markets, and elections.
+  url: https://crsreports.congress.gov/
+
+- short: AIID
+  name: AI Incident Database
+  founded: 2021
+  description: >-
+    A searchable repository documenting harms or near-harms realized in the
+    real world by the deployment of AI systems — modeled on aviation safety
+    databases.
+  url: https://incidentdatabase.ai/
+
+- short: ML Commons
+  name: ML Commons
+  founded: 2018
+  description: >-
+    Benchmarks AI performance, energy efficiency, safety and reliability
+    through open standards used across industry.
+  url: https://mlcommons.org/
+
+- short: NIST
+  name: National Institute of Standards and Technology
+  founded: 1901
+  description: >-
+    Establishes standards and best practices for AI, cybersecurity and privacy.
+    Maintains the AI Risk Management Framework.
+  url: https://www.nist.gov/itl/ai-risk-management-framework
+
+- short: CAA
+  name: Concept Art Association
+  founded: 2023
+  description: >-
+    Advocacy organization addressing unethical practices around generative AI in
+    entertainment and the creative industries.
+  url: https://www.conceptartassociation.com/
+
+- short: NEH
+  name: National Endowment for the Humanities
+  founded: 1965
+  description: >-
+    Funds academic research and educational grants exploring AI's cultural and
+    humanistic dimensions.
+  url: https://www.neh.gov/
+
+- short: TDAI
+  name: Translational Data Analytics Institute
+  founded: 2014
+  description: >-
+    Ohio State research center supporting interdisciplinary AI projects across
+    50+ disciplines.
+  url: https://tdai.osu.edu/
+
+- short: IFP
+  name: Institute for Progress
+  founded: 2022
+  description: >-
+    Think tank proposing concrete societal approaches to leverage AI's
+    potential, including for science.
+  url: https://ifp.org/
+
+- short: Epoch
+  name: Epoch AI
+  founded: 2021
+  description: >-
+    Publishes accessible forecasting and modeling reports on AI capabilities
+    and macroeconomic impact.
+  url: https://epoch.ai/
+
+- short: FPF
+  name: Future of Privacy Forum
+  founded: 2008
+  description: >-
+    Examines global legal and technical privacy questions related to AI
+    governance and data analytics.
+  url: https://fpf.org/
+
+- short: CDT
+  name: Center for Democracy and Technology
+  founded: 1994
+  description: >-
+    Advocates for online civil liberties, including AI's effect on schools,
+    students and democratic institutions.
+  url: https://cdt.org/
+
+- short: UK-AISI
+  name: UK AI Security Institute
+  founded: 2023
+  description: >-
+    UK government research organization examining AI safety, security
+    vulnerabilities and risks.
+  url: https://www.aisi.gov.uk/
+
+- short: OpenAI
+  name: OpenAI
+  founded: 2015
+  description: >-
+    Private company publishing research on frontier AI models, including
+    open-weight reasoning systems.
+  url: https://openai.com/research
+
+- short: HAI
+  name: Stanford Human-Centered AI
+  founded: 2019
+  description: >-
+    Stanford institute publishing the annual AI Index, tracking technical
+    progress, economic influence and societal impact.
+  url: https://hai.stanford.edu/

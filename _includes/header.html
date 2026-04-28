@@ -1,0 +1,43 @@
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-brand" href="{{ '/' | relative_url }}">
+      <span class="site-brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 32 48" width="22" height="32" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="2" y="2" width="28" height="44" rx="2"/>
+          <circle cx="24" cy="24" r="1.5" fill="currentColor"/>
+        </svg>
+      </span>
+      <span class="site-brand__text">
+        <span class="site-brand__title">Doors to AI</span>
+        <span class="site-brand__sub">a project</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false">
+      <span class="sr-only">Menu</span>
+      <span class="nav-toggle__bars" aria-hidden="true"></span>
+    </button>
+
+    <nav id="primary-nav" class="site-nav" aria-label="Primary">
+      <ul>
+        {% for item in site.nav %}
+        <li><a href="{{ item.url | relative_url }}"{% if page.url contains item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  // Tiny progressive nav toggle — no framework needed.
+  (function () {
+    var btn = document.querySelector('.nav-toggle');
+    var nav = document.getElementById('primary-nav');
+    if (!btn || !nav) return;
+    btn.addEventListener('click', function () {
+      var open = nav.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  })();
+</script>

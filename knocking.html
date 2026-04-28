@@ -1,0 +1,79 @@
+---
+layout: page
+title: Knocking
+permalink: /knocking/
+kicker: Administrative details
+lede: What we're on about, what's here, and what's new.
+---
+
+<section class="prose">
+  <h2>What are we on about here?</h2>
+  <p>
+    This site is, in part, <em>National Bureau of Standards fan fiction</em>.
+    Almost all of the imagery you'll see is in the public domain, drawn from
+    NBS reports going back to the institution's founding in 1901. We use
+    those images to set a tone: rigorous, curious, and a little weird —
+    because the future has always been a little weird.
+  </p>
+  <p>
+    The Doors to AI Project's working bet is that writers, artists, and
+    other professional imaginers can be a sounding board for the moral and
+    ethical questions that come with building robotics and artificial
+    intelligence. We collect serious work on AI, then invite serious work
+    in response from people whose job it is to imagine.
+  </p>
+</section>
+
+<section class="prose">
+  <h2>Directory</h2>
+  <dl class="directory">
+    <div>
+      <dt><a href="{{ '/knocking/' | relative_url }}">Knocking</a></dt>
+      <dd>You are here. Administrative details.</dd>
+    </div>
+    <div>
+      <dt><a href="{{ '/questions/' | relative_url }}">Questions</a></dt>
+      <dd>Inquiries with relevant references — the non-fiction core.</dd>
+    </div>
+    <div>
+      <dt><a href="{{ '/places/' | relative_url }}">Places</a></dt>
+      <dd>Organizations generating the research and analysis behind those references.</dd>
+    </div>
+    <div>
+      <dt><a href="{{ '/stories/' | relative_url }}">Stories</a></dt>
+      <dd>Curated creative responses.</dd>
+    </div>
+    <div>
+      <dt><a href="{{ '/workshops/' | relative_url }}">Workshops</a></dt>
+      <dd>Writing workshops addressing recent research presentations.</dd>
+    </div>
+    <div>
+      <dt><a href="{{ '/requests/' | relative_url }}">Requests</a></dt>
+      <dd>Goals from creative and policy stakeholders, traced back to people working on them.</dd>
+    </div>
+  </dl>
+</section>
+
+<section class="prose">
+  <h2>Change log</h2>
+  <ul class="changelog">
+    {% for entry in site.data.changelog %}
+    <li class="changelog__entry">
+      <p class="changelog__date">{{ entry.date }}</p>
+      <ul>
+        {% for item in entry.items %}<li>{{ item }}</li>{% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="prose">
+  <h2>Contact</h2>
+  <p>
+    Want to contribute a story, a workshop response, or a request? We'd
+    love to hear from you. Contact details forthcoming — for now, please
+    open an issue on the project's repository or reach out through the
+    domain administrator.
+  </p>
+</section>
