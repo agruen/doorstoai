@@ -3,6 +3,9 @@ layout: default
 ---
 <article class="page">
   <header class="page-header">
+    {% if page.banner %}
+    <div class="page-header__image" aria-hidden="true" style="background-image: url('{{ page.banner | relative_url }}');"></div>
+    {% endif %}
     <div class="container">
       {% if page.kicker %}<p class="kicker">{{ page.kicker }}</p>{% endif %}
       <h1 class="page-title">{{ page.title }}</h1>

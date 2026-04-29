@@ -7,3 +7,5 @@ vendor/
 Gemfile.lock
 .DS_Store
 .claude/
+assets/images/orig/
+assets/images/source/

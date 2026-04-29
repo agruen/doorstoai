@@ -26,6 +26,8 @@ exclude:
   - vendor
   - node_modules
   - README.md
+  - assets/images/source
+  - assets/images/orig
 
 # Collections / data drive the site; see _data/*.yml
 nav:
@@ -35,3 +37,4 @@ nav:
   - { title: "Workshops",  url: "/workshops/"  }
   - { title: "Requests",   url: "/requests/"   }
   - { title: "Knocking",   url: "/knocking/"   }
+

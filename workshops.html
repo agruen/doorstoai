@@ -2,6 +2,7 @@
 layout: page
 title: Workshops
 permalink: /workshops/
+banner: /assets/images/optimized/banner-workshops.jpg
 kicker: Non-fiction &rarr; Fiction
 lede: A more direct pathway between research and imagination. Below are accessible summaries of real presentations from cutting-edge technology and policy conferences, with responses from the fiction, entertainment and arts communities.
 ---
@@ -9,6 +10,7 @@ lede: A more direct pathway between research and imagination. Below are accessib
 <ol class="workshop-list">
   {% for w in site.data.workshops %}
   <li class="workshop">
+    <img class="workshop__art" src="{{ '/assets/images/optimized/workshop-' | append: w.number | append: '.jpg' | relative_url }}" alt="" loading="lazy">
     <p class="workshop__number">Workshop {{ w.number | prepend: '0' | slice: -2, 2 }}</p>
     <h2 class="workshop__title">{{ w.title }}</h2>
 
